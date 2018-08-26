@@ -1,2 +1,2 @@
-# Web-Style-Guide DRAFT
-Techdegree 4 - Web Style guide using sass - DRAFT MOBILE STYLING COMPLETE
+# Web-Style-Guide
+Techdegree 4 - Web Style guide using sass
