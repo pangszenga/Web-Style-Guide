@@ -16,16 +16,12 @@
   background-color: $primary-purple;
 }
 .theme__colors{
-  font-size: 1em;
-
-  width: 100%;
-  padding:1em 3em;
-  border-radius: $brdr-radius;
-  border: none;
-  font-weight: bold;
-  color: white;
-  margin: 15px 0;
+  font-size: $btn-font;
   text-transform: uppercase;
+  padding:1em 3em;
+  margin: 15px 0;
+  color: white;
+  @extend %theme__colors;
 
 
   @include desktop {

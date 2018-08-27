@@ -36,20 +36,16 @@
 
 @for $i from 1 through $g-col-count {
     .grid__col--#{$i}.theme__colors{
-        font-size: .8em;
-        font-weight: bold;
-        color: #707477;
-        padding:1em 3em 1em 1em;
-        width: 100%;
-        border: none;
-        border-radius: $brdr-radius;
-        margin: 4px 0;
-        text-transform: lowercase;
-
-        @include desktop {
-          margin: 10px;
-        }
-     }
+      font-size: $btn-font;
+      color: #707477;
+      padding:1em 3em 1em 1em;
+      margin: 4px 0;
+      text-transform: lowercase;
+      @extend %theme__colors;
+      @include desktop {
+        margin: 10px;
+      }
+  }
 }
 
 
