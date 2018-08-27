@@ -1,0 +1,40 @@
+.nav {
+  @include flex;
+  @include desktop {
+    display: flex;
+    flex-direction: row;
+  }
+}
+
+.nav__item {
+  width:100%;
+  margin: 5px 5em;
+  padding:1em 2em;
+  
+  border-radius: $brdr-radius;
+  text-align: center;
+  transition: background-color .8s;
+
+ @include desktop {
+   width: 30%;
+   margin: 4em 15px 1em 15px;
+ }
+
+
+}
+
+.nav__item:hover {
+  transition-timing-function: ease-in-out;
+  text-align: center;
+  background-color: $primary-green;
+}
+
+.nav__item a:visited,
+.nav__item a:link,
+.nav__item a:active {
+  text-decoration: none;
+}
+
+.nav__item a:hover {
+  color: white;
+}

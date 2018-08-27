@@ -1,0 +1,20 @@
+// the universal selector (*), ul elements, p elements/body/
+* {
+  box-sizing: border-box;
+  font-family: 'Work Sans', sans-serif;
+  color: #707477;
+
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+p {
+  margin: 1em;
+  padding: 3em 0;
+  width: 90%;
+  font-size: 1em;
+  line-height: 1.6;
+}

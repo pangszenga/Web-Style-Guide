@@ -1,0 +1,42 @@
+.headline--primary {
+  font-size: 2em;
+  font-weight: 1000;
+  color: $primary-green;
+  margin-right: 3em;
+  margin-left: 1em;
+
+}
+
+.headline--secondary {
+  font-size: 1em;
+  font-weight: lighter;
+
+  @include desktop {
+    font-size: 1.3em;
+    margin-left: 1em;
+  }
+}
+
+.link {
+  color: $primary-blue;
+  font-weight: bolder;
+  text-decoration: none;
+  font-size: 1.1em;
+}
+
+.blockquote {
+  border-radius: 15px;
+  border-left: .5em solid $primary-green;
+  font-style: italic;
+  font-size: 1.5em;
+  line-height: 1.6;
+  padding-left: 1em;
+  margin: 1em 3em 3em 2em;
+  align-content: center;
+  transition: 1s;
+}
+
+.blockquote:hover {
+  transform: scale(1);
+  padding: 1em;
+}

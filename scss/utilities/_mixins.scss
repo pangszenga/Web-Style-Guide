@@ -1,0 +1,16 @@
+// media query
+@mixin desktop {
+  @media screen and (min-width:1400px){
+    @content;
+
+  }
+}
+
+
+//flexbox
+
+@mixin flex() {
+  display: flex;
+  flex-direction: column;
+  margin: 0 2em;
+}

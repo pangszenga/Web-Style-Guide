@@ -1,0 +1,39 @@
+.btn--default {
+  background-color: $primary-blue;
+}
+
+.btn--success {
+  background-color: $secondary-green;
+}
+
+.btn--error {
+  background-color: $primary-red;
+}
+.btn--warning {
+  background-color: $secondary-red;
+}
+.btn--info {
+  background-color: $primary-purple;
+}
+.theme__colors{
+  font-size: 1em;
+
+  width: 100%;
+  padding:1em 3em;
+  border-radius: $brdr-radius;
+  border: none;
+  font-weight: bold;
+  color: white;
+  margin: 15px 0;
+  text-transform: uppercase;
+
+
+  @include desktop {
+    font-size: 1.1em;
+    margin-left: 5px;
+    margin-right: 5px;
+
+  }
+
+
+}

@@ -1,0 +1,38 @@
+.img--logo {
+  display: block;
+  padding: 1.5em;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  align-self: center;
+
+  @include desktop {
+    width: 100%;
+    padding: 3em;
+  }
+
+}
+
+.img--frame {
+  width: 100%;
+  margin: 2.5em 0 1em 0;
+  padding: 1em;
+  border:1px solid #898f93;
+  background-color:white;
+  align-self: center;
+
+  @include desktop {
+    margin-left: 5em;
+  }
+}
+
+.img--avatar {
+  align-self: center;
+  margin-left: 5em;
+  margin-top: 2em;
+  width: 60%;
+
+  @include desktop {
+    margin-right: 15em;
+  }
+}
