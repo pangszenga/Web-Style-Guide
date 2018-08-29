@@ -4,7 +4,7 @@
   @include desktop {
     display: inline-flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
 
     .grid__col--8 .card {
       width: 50em;
@@ -21,6 +21,7 @@
     .grid__col--6 {
       display: inline-flex;
       flex-direction: row;
+      justify-content: space-between;
     }
 
     .grid__col--12 {
@@ -31,6 +32,23 @@
       margin-left: 5em;
       margin-right: 5em;
     }
+
+    .grid__col--7{
+      width: 60%;
+    }
+
+    .grid__col--8 {
+      width: 70%;
+    }
+
+    .grid__col--5 {
+      width: 40%
+    }
+
+    .grid__col--4{
+      width: 38%
+    }
+
   }
 }
 
@@ -42,9 +60,13 @@
       margin: 4px 0;
       text-transform: lowercase;
       @extend %theme__colors;
-      @include desktop {
-        margin: 10px;
       }
+
+      @include desktop {
+        .grid__col--#{$i}.theme__colors{
+          margin: 5px;
+          text-transform: lowercase;
+          }
   }
 }
 
